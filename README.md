@@ -57,15 +57,15 @@ El sistema permitirá:
 
 ### 5. Justificación
 
-- Superar el modelo basado en archivos: dejar atrás la dependencia de hojas de cálculo y documentos dispersos, que dificultan la actualización, el control de cambios y la integración con otros sistemas.
-- Trazabilidad histórica: contar con un registro detallado de cómo cambió la estructura y los listados en los últimos 20 años, con posibilidad de reconstruir el estado en cualquier fecha.
+- Superar el modelo basado en archivos.
+- Trazabilidad histórica: contar con un registro detallado de cómo cambió la estructura y los listados históricos.
 - Integración con PADRÓN: facilitar cruces de información mediante codificaciones estandarizadas.
 - Automatización de reportes: disminuir el trabajo manual y el riesgo de errores.
 
 ### 6. Consideraciones de Implementación
 
-- El sistema se construirá con datos del último año disponible (2024) como punto de partida.
-- Posteriormente se cargarán los históricos de los últimos 20 años, respetando las fechas reales de vigencia.
+- El sistema se construirá con datos vigentes.
+- Posteriormente se cargarán los históricos.
 - Los códigos vigentes en los listados actuales se mantendrán como clave oficial en el sistema.
 - El diseño de base de datos contemplará la incorporación de nuevos niveles jerárquicos o categorías en el futuro, sin romper la compatibilidad.
 
@@ -74,6 +74,4 @@ El sistema permitirá:
 - Diseño detallado del modelo entidad-relación (incluyendo organigrama, listados, documentos y vínculos con PADRÓN).
 - Creación de base de datos en PostgreSQL y carga inicial del año 2024.
 - Desarrollo de interfaz de administración y carga de datos en PHP.
-- Incorporación de módulo de reportes y exportaciones.siva de históricos (últimos 20 años).
-
-Migración a entorno de desarrollo y posterior paso a producción.
+- Incorporación de módulo de reportes y exportaciones.
