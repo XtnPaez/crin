@@ -2,8 +2,9 @@
 
 ## 1. Preparación del entorno
 
-[ ] Crear entorno local con stack PHP + PostgreSQL.
-[ ] Definir estructura de carpetas del proyecto (organización MVC básica, aunque sea sin framework).
+[x] Crear el repo en github.
+[x] Crear entorno local con stack PHP + PostgreSQL.
+[ ] Definir estructura de carpetas del proyecto.
 [ ] Configurar conexión a PostgreSQL y parámetros globales.
 [ ] Preparar script base para migraciones SQL (para ir versionando cambios en la DB).
 
