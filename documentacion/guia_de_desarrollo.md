@@ -5,7 +5,7 @@
 - [x] Crear el repo en github.
 - [x] Crear entorno local con stack PHP + PostgreSQL.
 - [x] Definir estructura de carpetas del proyecto.
-- [ ] Configurar conexión a PostgreSQL y parámetros globales.
+- [x] Configurar conexión a PostgreSQL y parámetros globales.
 - [ ] Preparar script base para migraciones SQL (para ir versionando cambios en la DB).
 
 ## 2. Diseño de Base de Datos
